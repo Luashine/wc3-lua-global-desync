@@ -13,6 +13,18 @@ DDLib__TempLoc = Location(0., 0.) -- this is done in INIT -- ROOT LOCATION()
 DDHT = nil
 DDLib__GenSndTable = nil
 
+
+for i = 1, 10000 do
+	local key
+	if i % 2 == 0 then
+		key = "garbage_" .. i .. "_luatable"
+		_G[key] = {}
+	else
+		key = "garbage_" .. i .. "_jarray"
+		_G[key] = __jarray(0)
+	end
+end
+
 function DDLib__onInit()
   DDLib__TempLoc = Location(0., 0.) -- THIS LINE TOGETHER WITH SAME DEFINITION IN GLOBALS AT THE START DESYNCS
   DDHT = InitHashtable()

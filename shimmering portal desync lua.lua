@@ -261,6 +261,1641 @@ s__AAATimerUtils__tT = {}
 st___prototype6 = {}
 
 
+
+--Generated allocator of ShimmeringPortal__portal
+function s__ShimmeringPortal__portal__allocate()
+  local this = si__ShimmeringPortal__portal_F
+  if (this ~= 0) then
+    si__ShimmeringPortal__portal_F = si__ShimmeringPortal__portal_V[this]
+  else
+    si__ShimmeringPortal__portal_I = si__ShimmeringPortal__portal_I + 1
+    this = si__ShimmeringPortal__portal_I
+  end
+  if (this > 8190) then
+    return 0
+  end
+
+  si__ShimmeringPortal__portal_V[this] = -1
+  return this
+end
+
+--Generated destructor of ShimmeringPortal__portal
+function s__ShimmeringPortal__portal_deallocate(this)
+  if this == nil then
+    return
+  elseif (si__ShimmeringPortal__portal_V[this] ~= -1) then
+    return
+  end
+  si__ShimmeringPortal__portal_V[this] = si__ShimmeringPortal__portal_F
+  si__ShimmeringPortal__portal_F = this
+end
+
+--Generated allocator of ShimmeringPortal__unitimage
+function s__ShimmeringPortal__unitimage__allocate()
+  local this = si__ShimmeringPortal__unitimage_F
+  if (this ~= 0) then
+    si__ShimmeringPortal__unitimage_F = si__ShimmeringPortal__unitimage_V[this]
+  else
+    si__ShimmeringPortal__unitimage_I = si__ShimmeringPortal__unitimage_I + 1
+    this = si__ShimmeringPortal__unitimage_I
+  end
+  if (this > 8190) then
+    return 0
+  end
+
+  si__ShimmeringPortal__unitimage_V[this] = -1
+  return this
+end
+
+--Generated destructor of ShimmeringPortal__unitimage
+function s__ShimmeringPortal__unitimage_deallocate(this)
+  if this == nil then
+    return
+  elseif (si__ShimmeringPortal__unitimage_V[this] ~= -1) then
+    return
+  end
+  si__ShimmeringPortal__unitimage_V[this] = si__ShimmeringPortal__unitimage_F
+  si__ShimmeringPortal__unitimage_F = this
+end
+
+--Generated allocator of DDLib__cameranoisedata
+function s__DDLib__cameranoisedata__allocate()
+  local this = si__DDLib__cameranoisedata_F
+  if (this ~= 0) then
+    si__DDLib__cameranoisedata_F = si__DDLib__cameranoisedata_V[this]
+  else
+    si__DDLib__cameranoisedata_I = si__DDLib__cameranoisedata_I + 1
+    this = si__DDLib__cameranoisedata_I
+  end
+  if (this > 681) then
+    return 0
+  end
+  s__DDLib__cameranoisedata_p[this] = (this - 1) * 12
+  s__DDLib__cameranoisedata_n[this] = 0
+  si__DDLib__cameranoisedata_V[this] = -1
+  return this
+end
+
+--Generated destructor of DDLib__cameranoisedata
+function s__DDLib__cameranoisedata_deallocate(this)
+  if this == nil then
+    return
+  elseif (si__DDLib__cameranoisedata_V[this] ~= -1) then
+    return
+  end
+  si__DDLib__cameranoisedata_V[this] = si__DDLib__cameranoisedata_F
+  si__DDLib__cameranoisedata_F = this
+end
+
+--Generated allocator of DDLib__timedeffect
+function s__DDLib__timedeffect__allocate()
+  local this = si__DDLib__timedeffect_F
+  if (this ~= 0) then
+    si__DDLib__timedeffect_F = si__DDLib__timedeffect_V[this]
+  else
+    si__DDLib__timedeffect_I = si__DDLib__timedeffect_I + 1
+    this = si__DDLib__timedeffect_I
+  end
+  if (this > 8190) then
+    return 0
+  end
+
+  si__DDLib__timedeffect_V[this] = -1
+  return this
+end
+
+--Generated destructor of DDLib__timedeffect
+function s__DDLib__timedeffect_deallocate(this)
+  if this == nil then
+    return
+  elseif (si__DDLib__timedeffect_V[this] ~= -1) then
+    return
+  end
+  si__DDLib__timedeffect_V[this] = si__DDLib__timedeffect_F
+  si__DDLib__timedeffect_F = this
+end
+
+--Generated allocator of ddeffect
+function s__ddeffect__allocate()
+  local this = si__ddeffect_F
+  if (this ~= 0) then
+    si__ddeffect_F = si__ddeffect_V[this]
+  else
+    si__ddeffect_I = si__ddeffect_I + 1
+    this = si__ddeffect_I
+  end
+  if (this > 8190) then
+    return 0
+  end
+
+  si__ddeffect_V[this] = -1
+  return this
+end
+
+--Generated destructor of ddeffect
+function s__ddeffect_deallocate(this)
+  if this == nil then
+    return
+  elseif (si__ddeffect_V[this] ~= -1) then
+    return
+  end
+  si__ddeffect_V[this] = si__ddeffect_F
+  si__ddeffect_F = this
+end
+
+--Generated allocator of fade
+function s__fade__allocate()
+  local this = si__fade_F
+  if (this ~= 0) then
+    si__fade_F = si__fade_V[this]
+  else
+    si__fade_I = si__fade_I + 1
+    this = si__fade_I
+  end
+  if (this > 8190) then
+    return 0
+  end
+
+  si__fade_V[this] = -1
+  return this
+end
+
+--Generated destructor of fade
+function s__fade_deallocate(this)
+  if this == nil then
+    return
+  elseif (si__fade_V[this] ~= -1) then
+    return
+  end
+  si__fade_V[this] = si__fade_F
+  si__fade_F = this
+end
+
+--Generated allocator of DDLib__chill
+function s__DDLib__chill__allocate()
+  local this = si__DDLib__chill_F
+  if (this ~= 0) then
+    si__DDLib__chill_F = si__DDLib__chill_V[this]
+  else
+    si__DDLib__chill_I = si__DDLib__chill_I + 1
+    this = si__DDLib__chill_I
+  end
+  if (this > 8190) then
+    return 0
+  end
+
+  si__DDLib__chill_V[this] = -1
+  return this
+end
+
+--Generated destructor of DDLib__chill
+function s__DDLib__chill_deallocate(this)
+  if this == nil then
+    return
+  elseif (si__DDLib__chill_V[this] ~= -1) then
+    return
+  end
+  si__DDLib__chill_V[this] = si__DDLib__chill_F
+  si__DDLib__chill_F = this
+end
+
+--Generated allocator of DDLib__uratimed
+function s__DDLib__uratimed__allocate()
+  local this = si__DDLib__uratimed_F
+  if (this ~= 0) then
+    si__DDLib__uratimed_F = si__DDLib__uratimed_V[this]
+  else
+    si__DDLib__uratimed_I = si__DDLib__uratimed_I + 1
+    this = si__DDLib__uratimed_I
+  end
+  if (this > 8190) then
+    return 0
+  end
+
+  si__DDLib__uratimed_V[this] = -1
+  return this
+end
+
+--Generated destructor of DDLib__uratimed
+function s__DDLib__uratimed_deallocate(this)
+  if this == nil then
+    return
+  elseif (si__DDLib__uratimed_V[this] ~= -1) then
+    return
+  end
+  si__DDLib__uratimed_V[this] = si__DDLib__uratimed_F
+  si__DDLib__uratimed_F = this
+end
+
+--Generated allocator of p_unit
+function s__p_unit__allocate()
+  local this = si__p_unit_F
+  if (this ~= 0) then
+    si__p_unit_F = si__p_unit_V[this]
+  else
+    si__p_unit_I = si__p_unit_I + 8
+    this = si__p_unit_I
+  end
+  if (this > 8183) then
+    return 0
+  end
+
+  si__p_unit_V[this] = -1
+  return this
+end
+
+--Generated destructor of p_unit
+function s__p_unit_deallocate(this)
+  if this == nil then
+    return
+  elseif (si__p_unit_V[this] ~= -1) then
+    return
+  end
+  si__p_unit_V[this] = si__p_unit_F
+  si__p_unit_F = this
+end
+
+--Generated allocator of p_real
+function s__p_real__allocate()
+  local this = si__p_real_F
+  if (this ~= 0) then
+    si__p_real_F = si__p_real_V[this]
+  else
+    si__p_real_I = si__p_real_I + 8
+    this = si__p_real_I
+  end
+  if (this > 8183) then
+    return 0
+  end
+
+  si__p_real_V[this] = -1
+  return this
+end
+
+--Generated destructor of p_real
+function s__p_real_deallocate(this)
+  if this == nil then
+    return
+  elseif (si__p_real_V[this] ~= -1) then
+    return
+  end
+  si__p_real_V[this] = si__p_real_F
+  si__p_real_F = this
+end
+
+--Generated allocator of p_integer
+function s__p_integer__allocate()
+  local this = si__p_integer_F
+  if (this ~= 0) then
+    si__p_integer_F = si__p_integer_V[this]
+  else
+    si__p_integer_I = si__p_integer_I + 8
+    this = si__p_integer_I
+  end
+  if (this > 8183) then
+    return 0
+  end
+
+  si__p_integer_V[this] = -1
+  return this
+end
+
+--Generated destructor of p_integer
+function s__p_integer_deallocate(this)
+  if this == nil then
+    return
+  elseif (si__p_integer_V[this] ~= -1) then
+    return
+  end
+  si__p_integer_V[this] = si__p_integer_F
+  si__p_integer_F = this
+end
+function sc___prototype6_execute(i)
+
+  TriggerExecute(st___prototype6[i])
+end
+function sc___prototype6_evaluate(i)
+
+  TriggerEvaluate(st___prototype6[i])
+
+end
+
+--library AAATimerUtils:
+--*********************************************************************
+--* TimerUtils (red+blue+orange flavors for 1.24b+) 2.0
+--* ----------
+--*
+--*  To implement it , create a custom text trigger called TimerUtils
+--* and paste the contents of this script there.
+--*
+--*  To copy from a map to another, copy the trigger holding this
+--* library to your map.
+--*
+--* (requires vJass)   More scripts: htt://www.wc3c.net
+--*
+--* For your timer needs:
+--*  * Attaching
+--*  * Recycling (with double-free protection)
+--*
+--* set t=NewTimer()      : Get a timer (alternative to CreateTimer)
+--* set t=NewTimerEx(x)   : Get a timer (alternative to CreateTimer), call
+--*                            Initialize timer data as x, instead of 0.
+--*
+--* ReleaseTimer(t)       : Relese a timer (alt to DestroyTimer)
+--* SetTimerData(t,2)     : Attach value 2 to timer
+--* GetTimerData(t)       : Get the timer's value.
+--*                         You can assume a timer's value is 0
+--*                         after NewTimer.
+--*
+--* Multi-flavor:
+--*    Set USE_HASH_TABLE to true if you don't want to complicate your life.
+--*
+--* If you like speed and giberish try learning about the other flavors.
+--*
+--********************************************************************
+
+--================================================================
+
+--==================================================================================================
+
+
+--Implemented from module AAATimerUtils__Init:
+function s__AAATimerUtils__InitStruct_AAATimerUtils__Init___onInit()
+  AAATimerUtils__ht = InitHashtable()
+end
+
+--It is dependent on jasshelper's recent inlining optimization in order to perform correctly.
+function SetTimerData(t, value)
+
+  -- new blue
+  SaveInteger(AAATimerUtils__ht, 0, GetHandleId(t), value)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+end
+
+function GetTimerData(t)
+
+  -- new blue
+  return LoadInteger(AAATimerUtils__ht, 0, GetHandleId(t))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+end
+
+--==========================================================================================
+
+--==========================================================================================
+-- I needed to decide between duplicating code ignoring the "Once and only once" rule
+-- and using the ugly textmacros. I guess textmacros won.
+--
+
+function NewTimerEx(value)
+  if (AAATimerUtils__tN == 0) then
+    if (not AAATimerUtils__didinit) then
+      --This extra if shouldn't represent a major performance drawback
+      --because QUANTITY rule is not supposed to be broken every day. 
+      TriggerEvaluate(st___prototype6[(1)])
+      AAATimerUtils__tN = AAATimerUtils__tN - 1
+    else
+      --If this happens then the QUANTITY rule has already been broken, try to fix the
+      -- issue, else fail.
+      s__AAATimerUtils__tT[0] = CreateTimer()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    end
+  else
+    AAATimerUtils__tN = AAATimerUtils__tN - 1
+  end
+  SaveInteger(AAATimerUtils__ht, 0, GetHandleId((s__AAATimerUtils__tT[AAATimerUtils__tN])), (value))
+  return s__AAATimerUtils__tT[AAATimerUtils__tN]
+end
+
+function NewTimer()
+  return NewTimerEx(0)
+end
+
+
+--==========================================================================================
+function ReleaseTimer(t)
+  if (t == nil) then
+    return
+  end
+  if (AAATimerUtils__tN == AAATimerUtils__ARRAY_SIZE) then
+    --stack is full, the map already has much more troubles than the chance of bug
+    DestroyTimer(t)
+  else
+    PauseTimer(t)
+    if ((LoadInteger(AAATimerUtils__ht, 0, GetHandleId((t)))) == AAATimerUtils__HELD) then
+      return
+    end
+    SaveInteger(AAATimerUtils__ht, 0, GetHandleId((t)), (AAATimerUtils__HELD))
+    s__AAATimerUtils__tT[AAATimerUtils__tN] = t
+    AAATimerUtils__tN = AAATimerUtils__tN + 1
+  end
+end
+
+function AAATimerUtils__init()
+  local i = 0
+  local o = -1
+  local oops = false
+  if (AAATimerUtils__didinit) then
+    return
+  else
+    AAATimerUtils__didinit = true
+  end
+
+
+  AAATimerUtils__ht = InitHashtable()
+  while true do
+    if (i == AAATimerUtils__QUANTITY) then
+      break
+    end
+    s__AAATimerUtils__tT[i] = CreateTimer()
+    SaveInteger(AAATimerUtils__ht, 0, GetHandleId((s__AAATimerUtils__tT[i])), (AAATimerUtils__HELD))
+    i = i + 1
+  end
+  AAATimerUtils__tN = AAATimerUtils__QUANTITY
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+end
+
+
+--library AAATimerUtils ends
+--library DDLib:
+
+--public:  // ----------------------------------------------------------------------- // ----------------------------------------------------------------------- // *** Lib constants ***
+--private:
+--public:  // ----------------------------------------------------------------------- // ----------------------------------------------------------------------- // ----------------------------------------------------------------------- // * types
+--processed :        type p_integer extends integer array [8]  // *** pointer to list of data ***
+--processed :        type p_real extends real array [8]
+--processed :        type p_unit extends unit array [8]
+function H2ID(h)
+  return GetHandleId(h) - 0x100000
+end
+function New_pInteger(i)
+  local p = s__p_integer__allocate()
+  s__p_integer[p] = i
+  return p
+end
+function New_pReal(r)
+  local p = s__p_real__allocate()
+  s__p_real[p] = r
+  return p
+end
+function New_pUnit(u)
+  local p = s__p_unit__allocate()
+  s__p_unit[p] = u
+  return p
+end
+function pVector(x, y, z)
+  local v = s__p_real__allocate()
+  s__p_real[v] = x
+  s__p_real[v + 1] = y
+  s__p_real[v + 2] = z
+  return v
+end
+function DDMsg(str)
+  DisplayTimedTextFromPlayer(GetLocalPlayer_CONST, 0., 0., 30., str)
+end
+function DisplayErrorMsgPlayer(p, dur, msg)
+	msg = "|cffffcc00" .. msg .. "|r"
+  if (GetLocalPlayer_CONST == p) then
+    StartSound(DDLib__ErrorSound)
+    DisplayTimedTextFromPlayer(p, 0., 0., dur, msg)
+  end
+end
+--private:  // ----------------------------------------------------------------------- // ->           ***** private globals ***** // -----------------------------------------------------------------------
+--public:  // -----------------------------------------------------------------------
+function Pw_2(x)
+  return x * x
+end
+function DDHypot(x, y)
+  return (x * x) + (y * y)
+end
+function DDTerrZ(x, y)
+  MoveLocation(DDLib__TempLoc, x, y)
+  return GetLocationZ(DDLib__TempLoc)
+end
+function DDWidgetTerrZ(w)
+  MoveLocation(DDLib__TempLoc, GetWidgetX(w), GetWidgetY(w))
+  return GetLocationZ(DDLib__TempLoc)
+end
+function DDEffectTerrZ(e)
+  MoveLocation(DDLib__TempLoc, BlzGetLocalSpecialEffectX(e), BlzGetLocalSpecialEffectY(e))
+  return GetLocationZ(DDLib__TempLoc)
+end
+function DDGetUnitZ(u)
+  return BlzGetUnitZ(u) + GetUnitFlyHeight(u)
+end
+function DDSet(h, id, val)
+  SaveInteger(DDHT, id + 1, GetHandleId(h), val)
+end
+function DDGet(h, id)
+  return LoadInteger(DDHT, id + 1, GetHandleId(h))
+end
+function DDHas(h, id)
+  return HaveSavedInteger(DDHT, id + 1, GetHandleId(h))
+end
+function DDFlush(id)
+  FlushChildHashtable(DDHT, id + 1)
+end
+function DDIsTimRecycled(t)
+  local i = nil
+  i = DDLib__TimN - 1
+  while true do
+    if i < 0 then
+      break
+    end
+    if (DDLib__TimerStack[i] == t) then
+      return true
+    end
+    i = i - 1
+  end
+  return false
+end
+function DDLoadTim()
+
+  return (NewTimerEx(0))
+
+
+
+
+
+
+
+end
+function DDRecycleTim(t)
+
+  ReleaseTimer(t)
+
+
+
+
+
+
+
+
+
+
+end
+function DDTimData()
+  return DDLib__TimData[(GetHandleId((GetExpiredTimer())) - 0x100000)]
+end
+function DDCTimTick(t)
+  return DDLib__TimTicks[(GetHandleId((t)) - 0x100000)]
+end
+function DDTimTick()
+  local id = (GetHandleId((GetExpiredTimer())) - 0x100000)
+  DDLib__TimTicks[id] = DDLib__TimTicks[id] + 1
+  return DDLib__TimTicks[id]
+end
+function DDStartTim(secs, looping, pdata, func)
+  local t = (NewTimerEx(0))
+  DDLib__TimData[(GetHandleId((t)) - 0x100000)] = pdata
+  TimerStart(t, secs, looping, func)
+  return t
+end
+function DDLib__anon__0()
+  local t = GetExpiredTimer()
+  local id = (GetHandleId((t)) - 0x100000)
+  PauseTimer(t)
+
+  ReleaseTimer(t)
+
+
+
+
+  t = DDLib__TimTim2[id]
+  if (DDIsTimRecycled(t)) then
+    t = DDLib__TimTim1[id]
+  end
+  DDLib__TimTicks[(GetHandleId((t)) - 0x100000)] = 0
+  PauseTimer(t)
+
+  ReleaseTimer(t)
+
+
+
+
+end
+function DDStartTimInst(secs, looping, pdata, func)
+  local t1 = (NewTimerEx(0))
+  local t2 = (NewTimerEx(0))
+  local t3 = (NewTimerEx(0))
+  DDLib__TimData[(GetHandleId((t2)) - 0x100000)] = pdata
+  TimerStart(t2, 0., false, func)
+  DDLib__TimTim1[(GetHandleId((t3)) - 0x100000)] = t1
+  DDLib__TimTim2[(GetHandleId((t3)) - 0x100000)] = t2
+  TimerStart(t3, 0.005, false, DDLib__anon__0)
+  DDLib__TimData[(GetHandleId((t1)) - 0x100000)] = pdata
+  TimerStart(t1, secs, looping, func)
+  return t1
+end
+function DDQuitTim()
+  local t = GetExpiredTimer()
+  DDLib__TimTicks[(GetHandleId((t)) - 0x100000)] = 0
+  PauseTimer(t)
+
+  ReleaseTimer(t)
+
+
+
+
+end
+function DDQuitTimEx(t)
+  DDLib__TimTicks[(GetHandleId((t)) - 0x100000)] = 0
+  PauseTimer(t)
+
+  ReleaseTimer(t)
+
+
+
+
+end
+function DDLoadGroup()
+
+
+
+  if (DDLib__GrpN > 0) then
+    DDLib__GrpN = DDLib__GrpN - 1
+    return DDLib__GroupStack[DDLib__GrpN]
+  end
+  return CreateGroup()
+
+end
+function DDRecycleGroup(g)
+
+
+
+  GroupClear(g)
+  DDLib__GroupStack[DDLib__GrpN] = g
+  DDLib__GrpN = DDLib__GrpN + 1
+
+end
+function DDGroupFilterArea(x, y, radius, data, func)
+  local g = DDLoadGroup()
+  DDLib__GroupFilterData = data
+  GroupEnumUnitsInRange(g, x, y, radius, Filter(func))
+  DDRecycleGroup(g)
+end
+function DDGroupFilterRect(r, data, func)
+  local g = DDLoadGroup()
+  DDLib__GroupFilterData = data
+  GroupEnumUnitsInRect(g, r, Filter(func))
+  DDRecycleGroup(g)
+end
+function DDGFilterData()
+  return DDLib__GroupFilterData
+end
+function DDGFilterDataSet(data)
+  DDLib__GroupFilterData = data
+end
+function DDLib__anon__1()
+  DDLib__UnitStack[DDLib__US_N] = GetFilterUnit()
+  DDLib__US_N = DDLib__US_N + 1
+  return false
+end
+function DDGroupFillMemArea(x, y, radius, data, filter)
+  local g = DDLoadGroup()
+  local exp = And(Filter(filter), Filter(DDLib__anon__1))
+  DDLib__US_N = 0
+  DDLib__UnitStack[0] = nil
+  DDLib__UnitStackData = data
+  GroupEnumUnitsInRange(g, x, y, radius, exp)
+  DDRecycleGroup(g)
+  DestroyBoolExpr(exp)
+  exp = nil
+end
+function DDLib__anon__2()
+  DDLib__UnitStack[DDLib__US_N] = GetFilterUnit()
+  DDLib__US_N = DDLib__US_N + 1
+  return false
+end
+function DDGroupFillMemRect(r, data, filter)
+  local g = DDLoadGroup()
+  local exp = And(Filter(filter), Filter(DDLib__anon__2))
+  DDLib__US_N = 0
+  DDLib__UnitStack[0] = nil
+  DDLib__UnitStackData = data
+  GroupEnumUnitsInRect(g, r, exp)
+  DDRecycleGroup(g)
+  DestroyBoolExpr(exp)
+  exp = nil
+end
+function DDMemUnitN()
+  return DDLib__US_N
+end
+function DDMemUnitData()
+  return DDLib__UnitStackData
+end
+function DDMemUnit(index)
+  if (DDLib__US_N == 0) then
+    return nil
+  end
+  return DDLib__UnitStack[index]
+end
+function DDLoadDummy()
+  if (DDLib__DumN > 0) then
+    DDLib__DumN = DDLib__DumN - 1
+    PauseUnit(DDLib__DummyStack[DDLib__DumN], false)
+    return DDLib__DummyStack[DDLib__DumN]
+  end
+  return CreateUnit(Player(0xF), DD_DUMMYCODE, DDMaxX, DDMaxY, 0.)
+end
+function DDLoadSpellDummy(owner, x, y, abil, abilLevel)
+  local dummy = DDLoadDummy()
+  SetUnitOwner(dummy, owner, false)
+  SetUnitX(dummy, x)
+  SetUnitY(dummy, y)
+  if (abil ~= p_null) then
+    UnitAddAbility(dummy, abil)
+    SetUnitAbilityLevel(dummy, abil, abilLevel)
+  end
+  return dummy
+end
+function DDRecycleDummy(u)
+  PauseUnit(u, true)
+  DDLib__DummyStack[DDLib__DumN] = u
+  DDLib__DumN = DDLib__DumN + 1
+end
+function DDLib__anon__3()
+  DDRecycleDummy(s__p_unit[((DDLib__TimData[(GetHandleId((GetExpiredTimer())) - 0x100000)]))])
+  s__p_unit_deallocate(((DDLib__TimData[(GetHandleId((GetExpiredTimer())) - 0x100000)])))
+  DDQuitTim()
+end
+function DDRecycleDummyTimed(u, secs)
+  DDStartTim(secs, false, New_pUnit(u), DDLib__anon__3)
+end
+function DDLib__anon__4()
+  local pi = (DDLib__TimData[(GetHandleId((GetExpiredTimer())) - 0x100000)])
+  UnitShareVision(s__p_unit[(s__p_integer[pi])], Player(s__p_integer[pi + 1]), false)
+  s__p_unit[(s__p_integer[pi])] = nil
+  s__p_unit_deallocate((s__p_integer[pi]))
+  s__p_integer_deallocate(pi)
+  DDQuitTim()
+end
+function DDUnitShareVisionTimed(u, toP, secs)
+  local pi = s__p_integer__allocate()
+  s__p_integer[pi] = New_pUnit(u)
+  s__p_integer[pi + 1] = GetPlayerId(toP)
+  UnitShareVision(u, toP, true)
+  DDStartTim(secs, false, pi, DDLib__anon__4)
+end
+--private:
+function s__DDLib__uratimed_anon__5()
+  local this = (DDLib__TimData[(GetHandleId((GetExpiredTimer())) - 0x100000)])
+  UnitRemoveAbility(s__DDLib__uratimed_u[this], s__DDLib__uratimed_abil[this])
+  DDQuitTim()
+  s__DDLib__uratimed_deallocate(this)
+end
+function s__DDLib__uratimed_create(whichUnit, id, time)
+  local this = s__DDLib__uratimed__allocate()
+  s__DDLib__uratimed_u[this] = whichUnit
+  s__DDLib__uratimed_abil[this] = id
+  DDStartTim(time, false, this, s__DDLib__uratimed_anon__5)
+  return 0
+end
+function DDRemoveAbilityTimed(u, abil, secs)
+  s__DDLib__uratimed_create(u, abil, secs)
+end
+function DDSpellDamage(u, v, dmg)
+  local life = GetWidgetLife(v)
+  local dmgfactor = 1.
+  if (IsUnitType(v, UNIT_TYPE_HERO)) then
+    if (UnitHasItemOfTypeBJ(v, 1651663203)) then
+      dmgfactor = 0.5
+    else
+      dmgfactor = 0.75
+    end
+  end
+  if (life > dmg * dmgfactor) then
+    SetWidgetLife(v, life - (dmg * dmgfactor))
+  else
+    UnitDamageTarget(u, v, 99999., false, true, ATTACK_TYPE_NORMAL, DAMAGE_TYPE_NORMAL, WEAPON_TYPE_WHOKNOWS)
+  end
+end
+function DDLib__anon__6()
+  local c = (DDLib__TimData[(GetHandleId((GetExpiredTimer())) - 0x100000)])
+  s__DDLib__chill_dur[c] = s__DDLib__chill_dur[c] - 0.1
+  if (s__DDLib__chill_dur[c] <= 0. or GetUnitAbilityLevel(s__DDLib__chill_u[c], DD_CHILL_BUFF) == 0) then
+    UnitRemoveAbility(s__DDLib__chill_u[c], DD_CHILL_BUFF)
+    UnitRemoveAbility(s__DDLib__chill_dmy[c], DD_CHILL)
+    DDRecycleDummy(s__DDLib__chill_dmy[c])
+    s__DDLib__chill_Data[(GetHandleId((s__DDLib__chill_u[c])) - 0x100000)] = p_null
+    s__DDLib__chill_u[c] = nil
+    s__DDLib__chill_deallocate(c)
+    DDQuitTim()
+  end
+end
+function DDUnitChill(p, u, dur)
+  local c = s__DDLib__chill_Data[(GetHandleId((u)) - 0x100000)]
+  local d = nil
+  local rad = nil
+  if (c == p_null) then
+    c = s__DDLib__chill__allocate()
+    s__DDLib__chill_u[c] = u
+    s__DDLib__chill_dur[c] = dur
+    s__DDLib__chill_Data[(GetHandleId((u)) - 0x100000)] = c
+    d = DDLoadDummy()
+    s__DDLib__chill_dmy[c] = d
+    rad = GetUnitFacing(d) * bj_DEGTORAD
+    SetUnitOwner(d, p, false)
+    UnitAddAbility(d, DD_CHILL)
+    SetUnitX(d, GetUnitX(u) - 20. * Cos(rad))
+    SetUnitY(d, GetUnitY(u) - 20. * Sin(rad))
+    if (IssueTargetOrder(d, "frostnova", u)) then
+      DDStartTim(0.1, true, c, DDLib__anon__6)
+      return true
+    end
+    return false
+  end
+  s__DDLib__chill_dur[c] = dur
+  return true
+end
+function s__fade_create(u, dur, s_trans, e_trans)
+  local this = s__fade__allocate()
+  s__fade_u[this] = u
+  s__fade_trans[this] = s_trans
+  s__fade_rate[this] = ((e_trans - s_trans) / dur) * s__fade_INTERVAL
+  s__fade_e_trans[this] = e_trans
+  s__fade_dur[this] = dur
+  return this
+end
+function DDLib__anon__7()
+  local f = (DDLib__TimData[(GetHandleId((GetExpiredTimer())) - 0x100000)])
+  s__fade_trans[f] = s__fade_trans[f] + s__fade_rate[f]
+  s__fade_dur[f] = s__fade_dur[f] - s__fade_INTERVAL
+  SetUnitVertexColor(s__fade_u[f], 255, 255, 255, R2I(s__fade_trans[f] * 2.55))
+  if (s__fade_dur[f] < 0.) then
+    SetUnitVertexColor(s__fade_u[f], 255, 255, 255, R2I(s__fade_e_trans[f] * 2.55))
+    s__fade_u[f] = nil
+    s__fade_deallocate(f)
+    DDQuitTim()
+  end
+end
+function DDFadeUnit(u, from_alpha, to_alpha, duration)
+  local f = s__fade_create(u, duration, from_alpha / 2.55, to_alpha / 2.55)
+  SetUnitVertexColor(u, 255, 255, 255, from_alpha)
+  DDStartTim(s__fade_INTERVAL, true, f, DDLib__anon__7)
+end
+function DDIsUnitInvulnerable(u)
+  local d = DDLoadDummy()
+  local hp = GetWidgetLife(u)
+  local flag = nil
+  UnitDamageTarget(d, u, 1., true, false, nil, nil, nil)
+  flag = GetWidgetLife(u) == hp
+  SetWidgetLife(u, hp)
+  DDRecycleDummy(d)
+  return flag
+end
+function DDIsUnitWard(whichUnit)
+  return GetUnitDefaultMoveSpeed(whichUnit) == 0.
+end
+--private:
+function s__ddeffect_create(mdl, x, y, facRad, size)
+  local this = s__ddeffect__allocate()
+  s__ddeffect_e[this] = AddSpecialEffect(mdl, x, y)
+  s__ddeffect_fac[this] = facRad
+  s__ddeffect_effZ[this] = 0.
+  BlzSetSpecialEffectRoll(s__ddeffect_e[this], facRad)
+  BlzSetSpecialEffectScale(s__ddeffect_e[this], size)
+  return this
+end
+function s__ddeffect_createZ(mdl, x, y, z, facRad, size)
+  local this = s__ddeffect__allocate()
+  s__ddeffect_e[this] = AddSpecialEffect(mdl, x, y)
+  s__ddeffect_fac[this] = facRad
+  s__ddeffect_effZ[this] = z - DDTerrZ(x, y)
+  BlzSetSpecialEffectRoll(s__ddeffect_e[this], facRad)
+  BlzSetSpecialEffectScale(s__ddeffect_e[this], size)
+  BlzSetSpecialEffectZ(s__ddeffect_e[this], z)
+  return this
+end
+function s__ddeffect_destroy(this)
+  DestroyEffect(s__ddeffect_e[this])
+  s__ddeffect_e[this] = nil
+  s__ddeffect_deallocate(this)
+end
+function s__ddeffect_anon__8()
+  local se = (DDLib__TimData[(GetHandleId((GetExpiredTimer())) - 0x100000)])
+  BlzSetSpecialEffectPosition(s__ddeffect_e[se], DDMaxX, DDMaxY, 0.)
+  DestroyEffect(s__ddeffect_e[se])
+  s__ddeffect_e[se] = nil
+  s__ddeffect_deallocate(se)
+  DDQuitTim()
+end
+function s__ddeffect_destroyx(this, decayTime)
+  DDStartTim(decayTime, false, this, s__ddeffect_anon__8)
+end
+function s__ddeffect__set_Z(this, z)
+  BlzSetSpecialEffectZ(s__ddeffect_e[this], z)
+end
+function s__ddeffect__get_X(this)
+  return BlzGetLocalSpecialEffectX(s__ddeffect_e[this])
+end
+function s__ddeffect__get_Y(this)
+  return BlzGetLocalSpecialEffectY(s__ddeffect_e[this])
+end
+function s__ddeffect__get_Z(this)
+  return BlzGetLocalSpecialEffectZ(s__ddeffect_e[this])
+end
+function s__ddeffect__get_WZ(this)
+  return DDEffectTerrZ(s__ddeffect_e[this])
+end
+function s__ddeffect__get_Height(this)
+  return (BlzGetLocalSpecialEffectZ(s__ddeffect_e[(this)])) - (DDEffectTerrZ(s__ddeffect_e[(this)]))
+end
+function s__ddeffect__set_Facing(this, facRad)
+  BlzSetSpecialEffectRoll(s__ddeffect_e[this], facRad)
+  s__ddeffect_fac[this] = facRad
+end
+function s__ddeffect__get_Facing(this)
+  return s__ddeffect_fac[this]
+end
+function s__ddeffect_Position(this, x, y)
+  BlzSetSpecialEffectPosition(s__ddeffect_e[this], x, y, s__ddeffect_effZ[this] + (DDEffectTerrZ(s__ddeffect_e[(this)])))
+end
+function s__ddeffect_PositionZ(this, x, y, z)
+  BlzSetSpecialEffectPosition(s__ddeffect_e[this], x, y, z)
+end
+function s__ddeffect_Animation(this, dd_at)
+  BlzPlaySpecialEffect(s__ddeffect_e[this], dd_at)
+end
+function s__ddeffect_AnimationSpeed(this, animSpeed)
+  BlzSetSpecialEffectTimeScale(s__ddeffect_e[this], animSpeed / 100.)
+end
+function s__ddeffect_anon__9()
+  local dde = (DDLib__TimData[(GetHandleId((GetExpiredTimer())) - 0x100000)])
+  s__ddeffect_cTrans[dde] = s__ddeffect_cTrans[dde] + s__ddeffect_stepTrans[dde]
+  if (s__ddeffect_stepTrans[dde] > 0.) then
+    if (s__ddeffect_cTrans[dde] >= s__ddeffect_eTrans[dde]) then
+      BlzSetSpecialEffectAlpha(s__ddeffect_e[dde], R2I(s__ddeffect_eTrans[dde] * 2.55))
+      DDQuitTim()
+      return
+    elseif (s__ddeffect_cTrans[dde] <= s__ddeffect_eTrans[dde]) then
+      BlzSetSpecialEffectAlpha(s__ddeffect_e[dde], R2I(s__ddeffect_eTrans[dde] * 2.55))
+      DDQuitTim()
+      return
+    end
+  end
+  BlzSetSpecialEffectAlpha(s__ddeffect_e[dde], R2I(s__ddeffect_cTrans[dde] * 2.55))
+end
+function s__ddeffect_Fade(this, startTransparency, endTransparency, duration)
+  s__ddeffect_cTrans[this] = startTransparency
+  s__ddeffect_eTrans[this] = endTransparency
+  s__ddeffect_stepTrans[this] = 0.1 * (endTransparency - startTransparency) / duration
+  BlzSetSpecialEffectAlpha(s__ddeffect_e[this], R2I(startTransparency * 2.55))
+  DDStartTim(0.1, true, this, s__ddeffect_anon__9)
+end
+--processed :        type DDLib__timedeffect extends effect array [01]
+function DDLib__anon__10()
+  local te = (DDLib__TimData[(GetHandleId((GetExpiredTimer())) - 0x100000)])
+  DestroyEffect(s__DDLib__timedeffect[te])
+  s__DDLib__timedeffect_deallocate(te)
+  DDQuitTim()
+end
+function DDDestroyEffectTimed(e, secs)
+  local te = s__DDLib__timedeffect__allocate()
+  s__DDLib__timedeffect[te] = e
+  DDStartTim(secs, true, te, DDLib__anon__10)
+end
+function DDLib__anon__11()
+  local cnd = (DDLib__TimData[(GetHandleId((GetExpiredTimer())) - 0x100000)])
+  while true do
+    if (s__DDLib__cameranoisedata_n[cnd] == 0) then
+      break
+    end
+    s__DDLib__cameranoisedata_n[cnd] = s__DDLib__cameranoisedata_n[cnd] - 1
+    if (GetLocalPlayer_CONST == s___DDLib__cameranoisedata_p[s__DDLib__cameranoisedata_p[cnd] + s__DDLib__cameranoisedata_n[cnd]]) then
+      CameraSetSourceNoise(0., 0.)
+    end
+    CameraSetTargetNoise(0., 0.)
+  end
+  s__DDLib__cameranoisedata_deallocate(cnd)
+  DDQuitTim()
+end
+function DDCameraSetSourceNoiseForPlayers(x, y, mag, vel, maxDist, duration)
+  local i = nil
+  local d = nil
+  local cnd = s__DDLib__cameranoisedata__allocate()
+  i = 0
+  while true do
+    if i >= bj_MAX_PLAYERS then
+      break
+    end
+	local playerr = Player(i)
+    if (GetLocalPlayer_CONST == playerr) then
+      d = SquareRoot(Pw_2(GetCameraTargetPositionX() - x) + Pw_2(GetCameraTargetPositionY() - y))
+      if (d < maxDist) then
+        s___DDLib__cameranoisedata_p[s__DDLib__cameranoisedata_p[cnd] + s__DDLib__cameranoisedata_n[cnd]] = playerr
+        CameraSetSourceNoise(mag - (d * (mag / maxDist)), vel - (d * (vel / maxDist)))
+        CameraSetTargetNoise(mag - (d * (mag / maxDist)), vel - (d * (vel / maxDist)))
+        s__DDLib__cameranoisedata_n[cnd] = s__DDLib__cameranoisedata_n[cnd] + 1
+      end
+    end
+    i = i + 1
+  end
+  DDStartTim(duration, false, cnd, DDLib__anon__11)
+end
+function DDGenericSound(file, vol, x, y, mxDist, pitch)
+  local sh = StringHash(file)
+  local snd_n = LoadInteger(DDLib__GenSndTable, sh, 4)
+  local s = LoadSoundHandle(DDLib__GenSndTable, sh, snd_n)
+  local d = nil
+  local i = nil
+  if (s == nil) then
+    s = CreateSound(file, false, false, false, 10, 10, "")
+    SaveSoundHandle(DDLib__GenSndTable, sh, snd_n, s)
+  elseif (GetSoundIsPlaying(s)) then
+    StopSound(s, false, false)
+  end
+  SetSoundPitch(s, pitch)
+  snd_n = snd_n + 1
+  if (snd_n == 4) then
+    snd_n = 0
+  end
+  SaveInteger(DDLib__GenSndTable, sh, 4, snd_n)
+  i = 0
+  while true do
+    if i >= bj_MAX_PLAYERS then
+      break
+    end
+    if (GetLocalPlayer_CONST == Player(i)) then
+      d = SquareRoot(DDHypot(GetCameraTargetPositionX() - x, GetCameraTargetPositionY() - y))
+      if (d < mxDist) then
+        SetSoundVolume(s, R2I((vol - d * (vol / mxDist)) * 1.27))
+        StartSound(s)
+      end
+    end
+    i = i + 1
+  end
+end
+function DDGetGameElapsedTime()
+  return TimerGetElapsed(DDLib__GameElapsedTimer)
+end
+function DDGetRndReal(min, max)
+  local rnd = ((max - min) / 1000000.) * I2R(DDLib__RndInt[DDLib__RndIntReadN])
+  DDLib__RndIntReadN = DDLib__RndIntReadN + 1
+  if (DDLib__RndIntReadN == DDLib__RND_INT_MAX_ARRAY_N) then
+    DDLib__RndIntReadN = 0
+  end
+  return min + rnd
+end
+function DDGetRndInt(min, max)
+  return R2I(DDGetRndReal(I2R(min), I2R(max)))
+end
+function DDLib__onInit()
+  DDLib__TempLoc = Location(0., 0.)
+  DDHT = InitHashtable()
+  DDMinX = GetRectMinX(bj_mapInitialPlayableArea)
+  DDMinY = GetRectMinY(bj_mapInitialPlayableArea)
+  DDMaxX = GetRectMaxX(bj_mapInitialPlayableArea)
+  DDMaxY = GetRectMaxY(bj_mapInitialPlayableArea)
+  DDLib__GenSndTable = InitHashtable()
+  DDLib__ErrorSound = CreateSound("Sound\\Interface\\Error.wav", false, false, false, 10, 10, "")
+  SetSoundParamsFromLabel(DDLib__ErrorSound, "InterfaceError")
+  SetSoundDuration(DDLib__ErrorSound, 614)
+  SetSoundVolume(DDLib__ErrorSound, 127)
+  DDLib__GameElapsedTimer = CreateTimer()
+  TimerStart(DDLib__GameElapsedTimer, 10800., false, nil)
+  DDLib__RndIntWriteN = 0
+  while true do
+    if DDLib__RndIntWriteN >= DDLib__RND_INT_MAX_ARRAY_N then
+      break
+    end
+    DDLib__RndInt[DDLib__RndIntWriteN] = GetRandomInt(0, 1000000)
+    DDLib__RndIntWriteN = DDLib__RndIntWriteN + 1
+  end
+  DDLib__RndIntWriteN = 0
+  DDLib__RndGenForce = CreateForce()
+end
+
+--library DDLib ends
+--library ShimmeringPortal:
+
+function ShimmeringPortal__PORTAL_DURATION(level)
+  local dur = __jarray(0.0)
+  dur[1] = 15.
+  dur[2] = 15.
+  dur[3] = 15.
+  dur[4] = 15.
+  return dur[level]
+end
+function ShimmeringPortal__PORTAL_TRANSITION_TIME(level)
+  local trans_tim = __jarray(0.0)
+  trans_tim[1] = 2.
+  trans_tim[2] = 2.
+  trans_tim[3] = 2.
+  trans_tim[4] = 2.
+  return trans_tim[level]
+end
+function ShimmeringPortal__PORTAL_MAX_PASS(level)
+  local max_pass = __jarray(0)
+  max_pass[1] = 999
+  max_pass[2] = 999
+  max_pass[3] = 999
+  max_pass[4] = 999
+  return max_pass[level]
+end
+function ShimmeringPortal__PortFilter(filter_unit, cast_player)
+  return not (IsUnitType(filter_unit, UNIT_TYPE_DEAD)) and not (IsUnitType(filter_unit, UNIT_TYPE_STRUCTURE)) and GetUnitAbilityLevel(filter_unit, 1093678903) == 0 and GetUnitMoveSpeed(filter_unit) > 0.0
+end
+function ShimmeringPortal__IsUnitInRectangle(u, x, y, degrees)
+  local ux = GetUnitX(u)
+  local uy = GetUnitY(u)
+  local minx = x - (ShimmeringPortal__PORTAL_LENGTH * 0.5)
+  local miny = y - (ShimmeringPortal__PORTAL_WIDTH * 0.5)
+  local maxx = x + (ShimmeringPortal__PORTAL_LENGTH * 0.5)
+  local maxy = y + (ShimmeringPortal__PORTAL_WIDTH * 0.5)
+  local range = SquareRoot(Pw_2(x - ux) + Pw_2(y - uy))
+  local radians = Atan2(uy - y, ux - x)
+  ux = x + range * Cos(radians - (degrees * bj_DEGTORAD))
+  uy = y + range * Sin(radians - (degrees * bj_DEGTORAD))
+  return (ux > minx and ux < maxx) and (uy > miny and uy < maxy)
+end
+function ShimmeringPortal__TranslateUnitFromRectangleToRectangle(u, wormhole_sx, wormhole_sy, sdegrees, wormhole_tx, wormhole_ty, tdegrees)
+  local wormhole_ux = GetUnitX(u)
+  local wormhole_uy = GetUnitY(u)
+  local range = SquareRoot(Pw_2(wormhole_sx - wormhole_ux) + Pw_2(wormhole_sy - wormhole_uy))
+  local tradians_shift = -Atan2(wormhole_uy - wormhole_sy, wormhole_ux - wormhole_sx) + (tdegrees + sdegrees + 180.) * bj_DEGTORAD
+  wormhole_ux = wormhole_tx + range * Cos(tradians_shift)
+  wormhole_uy = wormhole_ty + range * Sin(tradians_shift)
+  SetUnitX(u, wormhole_ux)
+  SetUnitY(u, wormhole_uy)
+  SetUnitFacing(u, -GetUnitFacing(u) + (tdegrees + sdegrees))
+end
+--private:
+function s__ShimmeringPortal__unitimage_anon__0()
+  local this = (DDLib__TimData[(GetHandleId((GetExpiredTimer())) - 0x100000)])
+  s__ShimmeringPortal__unitimage_trans[this] = s__ShimmeringPortal__unitimage_trans[this] - s__ShimmeringPortal__unitimage_t_spd[this]
+  SetUnitVertexColor(s__ShimmeringPortal__unitimage_u[this], ShimmeringPortal__UNIT_AFTER_IMAGE_RED, ShimmeringPortal__UNIT_AFTER_IMAGE_GREEN, ShimmeringPortal__UNIT_AFTER_IMAGE_BLUE, R2I(s__ShimmeringPortal__unitimage_trans[this] * 2.55))
+  if (s__ShimmeringPortal__unitimage_trans[this] <= 0.) then
+    RemoveUnit(s__ShimmeringPortal__unitimage_u[this])
+    s__ShimmeringPortal__unitimage_u[this] = nil
+    s__ShimmeringPortal__unitimage_deallocate(this)
+    DDQuitTim()
+  end
+end
+function s__ShimmeringPortal__unitimage_CreateAfterImage(target, x, y)
+  local this = s__ShimmeringPortal__unitimage__allocate()
+  local fac = GetUnitFacing(target)
+  s__ShimmeringPortal__unitimage_u[this] = CreateUnit(s__ShimmeringPortal__unitimage_IMAGE_OWNER, GetUnitTypeId(target), 0., 0., fac)
+  UnitAddAbility(s__ShimmeringPortal__unitimage_u[this], 1097625443)
+  SetUnitPathing(s__ShimmeringPortal__unitimage_u[this], false)
+  SetUnitTimeScale(s__ShimmeringPortal__unitimage_u[this], ShimmeringPortal__UNIT_AFTER_IMAGE_TIMESCALE)
+  SetUnitX(s__ShimmeringPortal__unitimage_u[this], x - 90. * Cos(fac * bj_DEGTORAD))
+  SetUnitY(s__ShimmeringPortal__unitimage_u[this], y - 90. * Sin(fac * bj_DEGTORAD))
+  SetUnitVertexColor(s__ShimmeringPortal__unitimage_u[this], ShimmeringPortal__UNIT_AFTER_IMAGE_RED, ShimmeringPortal__UNIT_AFTER_IMAGE_GREEN, ShimmeringPortal__UNIT_AFTER_IMAGE_BLUE, 255)
+  SetUnitMoveSpeed(s__ShimmeringPortal__unitimage_u[this], 1.)
+  IssuePointOrder(s__ShimmeringPortal__unitimage_u[this], "move", x + 100. * Cos(fac * bj_DEGTORAD), y + 100. * Sin(fac * bj_DEGTORAD))
+  SetUnitColor(s__ShimmeringPortal__unitimage_u[this], GetPlayerColor(GetOwningPlayer(target)))
+  s__ShimmeringPortal__unitimage_trans[this] = GetRandomReal(ShimmeringPortal__UNIT_AFTER_IMAGE_TRANSPARENCY_MIN, ShimmeringPortal__UNIT_AFTER_IMAGE_TRANSPARENCY_MAX)
+  s__ShimmeringPortal__unitimage_t_spd[this] = DD_INTERVAL * s__ShimmeringPortal__unitimage_trans[this] / ShimmeringPortal__UNIT_AFTER_IMAGE_DURATION
+  DDStartTim(DD_INTERVAL, true, this, s__ShimmeringPortal__unitimage_anon__0)
+end
+--private:
+function s__ShimmeringPortal__portal_onInit()
+  s__ShimmeringPortal__portal_SctG = CreateGroup()
+  s__ShimmeringPortal__portal_SctT = CreateTimer()
+end
+function s__ShimmeringPortal__portal_Min4x(a, b, c, d)
+  if (a < b and a < c and a < d) then
+    return a
+  elseif (b < c and b < d) then
+    return b
+  elseif (c < d) then
+    return c
+  end
+  return d
+end
+function s__ShimmeringPortal__portal_Max4x(a, b, c, d)
+  if (a > b and a > c and a > d) then
+    return a
+  elseif (b > c and b > d) then
+    return b
+  elseif (c > d) then
+    return c
+  end
+  return d
+end
+function s__ShimmeringPortal__portal_RectangleToRect(x, y, rrad)
+  local wormhole_x1 = x + (s__ShimmeringPortal__portal_DIAGONAL * Cos(rrad + s__ShimmeringPortal__portal_ALPHA) * 0.5)
+  local wormhole_x2 = x + (s__ShimmeringPortal__portal_DIAGONAL * Cos(rrad - s__ShimmeringPortal__portal_ALPHA) * 0.5)
+  local wormhole_x3 = x + (s__ShimmeringPortal__portal_DIAGONAL * Cos(rrad + bj_PI + s__ShimmeringPortal__portal_ALPHA) * 0.5)
+  local wormhole_x4 = x + (s__ShimmeringPortal__portal_DIAGONAL * Cos(rrad + bj_PI - s__ShimmeringPortal__portal_ALPHA) * 0.5)
+  local wormhole_y1 = y + (s__ShimmeringPortal__portal_DIAGONAL * Sin(rrad + s__ShimmeringPortal__portal_ALPHA) * 0.5)
+  local wormhole_y2 = y + (s__ShimmeringPortal__portal_DIAGONAL * Sin(rrad - s__ShimmeringPortal__portal_ALPHA) * 0.5)
+  local wormhole_y3 = y + (s__ShimmeringPortal__portal_DIAGONAL * Sin(rrad + bj_PI + s__ShimmeringPortal__portal_ALPHA) * 0.5)
+  local wormhole_y4 = y + (s__ShimmeringPortal__portal_DIAGONAL * Sin(rrad + bj_PI - s__ShimmeringPortal__portal_ALPHA) * 0.5)
+  return Rect(s__ShimmeringPortal__portal_Min4x(wormhole_x1, wormhole_x2, wormhole_x3, wormhole_x4), s__ShimmeringPortal__portal_Min4x(wormhole_y1, wormhole_y2, wormhole_y3, wormhole_y4), s__ShimmeringPortal__portal_Max4x(wormhole_x1, wormhole_x2, wormhole_x3, wormhole_x4), s__ShimmeringPortal__portal_Max4x(wormhole_y1, wormhole_y2, wormhole_y3, wormhole_y4))
+end
+function s__ShimmeringPortal__portal_create(p, lvl, x, y, degrees, tx, ty, tdegrees)
+  local this = s__ShimmeringPortal__portal__allocate()
+  s__ShimmeringPortal__portal_p[this] = CreateUnit(p, ShimmeringPortal__PORTAL_ID, x, y, degrees + 90.)
+  PauseUnit(s__ShimmeringPortal__portal_p[this], true)
+  SetUnitAnimation(s__ShimmeringPortal__portal_p[this], ShimmeringPortal__PORTAL_ANIM_BIRTH)
+  QueueUnitAnimation(s__ShimmeringPortal__portal_p[this], ShimmeringPortal__PORTAL_ANIM_STAND)
+  SetUnitTimeScale(s__ShimmeringPortal__portal_p[this], 3.0)
+  s__ShimmeringPortal__portal_x[this] = x
+  s__ShimmeringPortal__portal_y[this] = y
+  s__ShimmeringPortal__portal_degrees[this] = degrees
+  s__ShimmeringPortal__portal_tx[this] = tx
+  s__ShimmeringPortal__portal_ty[this] = ty
+  s__ShimmeringPortal__portal_tdegrees[this] = tdegrees
+  s__ShimmeringPortal__portal_lvl[this] = lvl
+  s__ShimmeringPortal__portal_cpass[this] = 0
+  s__ShimmeringPortal__portal_trans_units[this] = 0
+  s__ShimmeringPortal__portal_pr[this] = s__ShimmeringPortal__portal_RectangleToRect(x, y, bj_DEGTORAD * degrees)
+  s__ShimmeringPortal__portal_cpass_timeout[this] = ShimmeringPortal__PORTAL_TRANSITION_TIME(lvl)
+  return this
+end
+function s__ShimmeringPortal__portal_destroy(this)
+  if (s__ShimmeringPortal__portal_t[this] ~= nil) then
+    PauseTimer(s__ShimmeringPortal__portal_t[this])
+    ReleaseTimer((s__ShimmeringPortal__portal_t[this]))
+    s__ShimmeringPortal__portal_t[this] = nil
+  end
+  StopSound(s__ShimmeringPortal__portal_amb[this], true, true)
+  KillUnit(s__ShimmeringPortal__portal_p[this])
+  SetUnitVertexColor(s__ShimmeringPortal__portal_p[this], 255, 255, 255, 0)
+  RemoveRect(s__ShimmeringPortal__portal_pr[this])
+  s__ShimmeringPortal__portal_p[this] = nil
+  s__ShimmeringPortal__portal_pr[this] = nil
+  s__ShimmeringPortal__portal_amb[this] = nil
+  s__ShimmeringPortal__portal_deallocate(this)
+end
+function s__ShimmeringPortal__portal_PlayPortalEntranceSound(this)
+  DDGenericSound(ShimmeringPortal__PORTAL_ENTRANCE_SOUND_FILE, ShimmeringPortal__PORTAL_ENTRANCE_SOUND_VOLUME, s__ShimmeringPortal__portal_x[this], s__ShimmeringPortal__portal_y[this], ShimmeringPortal__SOUND_MAX_DISTANCE, 1.)
+end
+function s__ShimmeringPortal__portal_PlayPortalDeathSound(this)
+  DDGenericSound(ShimmeringPortal__PORTAL_DEATH_SOUND_FILE, ShimmeringPortal__PORTAL_DEATH_SOUND_VOLUME, s__ShimmeringPortal__portal_x[this], s__ShimmeringPortal__portal_y[this], ShimmeringPortal__SOUND_MAX_DISTANCE, 1.)
+end
+function s__ShimmeringPortal__portal_PlayPortalAmbienceSound(this)
+  if (s__ShimmeringPortal__portal_amb[this] == nil) then
+    s__ShimmeringPortal__portal_amb[this] = CreateSound(ShimmeringPortal__PORTAL_AMBIENCE_SOUND_FILE, true, true, true, 10, 10, "DoodadsEAX")
+    SetSoundVolume(s__ShimmeringPortal__portal_amb[this], R2I(ShimmeringPortal__PORTAL_AMBIENCE_SOUND_VOLUME * 1.27))
+    SetSoundPosition(s__ShimmeringPortal__portal_amb[this], s__ShimmeringPortal__portal_x[this], s__ShimmeringPortal__portal_y[this], 0.)
+    SetSoundDistanceCutoff(s__ShimmeringPortal__portal_amb[this], 3500.)
+    StartSound(s__ShimmeringPortal__portal_amb[this])
+  end
+end
+function s__ShimmeringPortal__portal_anon__1()
+  s__ShimmeringPortal__portal_TempBool = s__ShimmeringPortal__portal_TempBool or (GetUnitAbilityLevel(GetFilterUnit(), 1097625443) == 0 and ShimmeringPortal__PortFilter(GetFilterUnit(), Player((DDLib__GroupFilterData))))
+  return false
+end
+function s__ShimmeringPortal__portal_IsSrcPortalClear(this, p)
+  s__ShimmeringPortal__portal_TempBool = false
+  DDGroupFilterArea(s__ShimmeringPortal__portal_x[this], s__ShimmeringPortal__portal_y[this], ShimmeringPortal__CAMERA_PAN_AREA_SCAN, GetPlayerId(p), s__ShimmeringPortal__portal_anon__1)
+  return not s__ShimmeringPortal__portal_TempBool
+end
+function s__ShimmeringPortal__portal_anon__3()
+  local u = GetEnumUnit()
+  local p = GetOwningPlayer(u)
+  local wormhole_pt = DDGet(u, ShimmeringPortal__UNIT_SELECTION_GROUPING_KEY)
+  if (s__ShimmeringPortal__portal_IsSrcPortalClear(wormhole_pt, p) or IsUnitType(s__ShimmeringPortal__portal_p[wormhole_pt], UNIT_TYPE_DEAD)) then
+    if (GetLocalPlayer_CONST == p) then
+      SelectUnit(u, true)
+    end
+    GroupRemoveUnit(s__ShimmeringPortal__portal_SctG, u)
+  end
+  u = nil
+end
+function s__ShimmeringPortal__portal_anon__2()
+  ForGroup(s__ShimmeringPortal__portal_SctG, s__ShimmeringPortal__portal_anon__3)
+  if (FirstOfGroup(s__ShimmeringPortal__portal_SctG) == nil) then
+    PauseTimer(s__ShimmeringPortal__portal_SctT)
+  end
+end
+function s__ShimmeringPortal__portal_DoSelectJob(this, u, select)
+  local p = GetOwningPlayer(u)
+  if (not select) then
+    DDSet(u, ShimmeringPortal__UNIT_SELECTED_KEY, 0)
+    if (IsUnitSelected(u, p)) then
+      DDSet(u, ShimmeringPortal__UNIT_SELECTED_KEY, 1)
+      SelectUnit(u, false)
+      if (IsUnitInGroup(u, s__ShimmeringPortal__portal_SctG)) then
+        GroupRemoveUnit(s__ShimmeringPortal__portal_SctG, u)
+      end
+    end
+  elseif (DDGet(u, ShimmeringPortal__UNIT_SELECTED_KEY) == 1) then
+    if (s__ShimmeringPortal__portal_IsSrcPortalClear(this, p)) then
+      if (GetLocalPlayer_CONST == p) then
+        SelectUnit(u, true)
+      end
+    else
+      if (FirstOfGroup(s__ShimmeringPortal__portal_SctG) == nil) then
+        TimerStart(s__ShimmeringPortal__portal_SctT, ShimmeringPortal__SELECTION_CHECK_INTERVAL, true, s__ShimmeringPortal__portal_anon__2)
+      end
+      DDSet(u, ShimmeringPortal__UNIT_SELECTION_GROUPING_KEY, this)
+      GroupAddUnit(s__ShimmeringPortal__portal_SctG, u)
+    end
+  end
+end
+function s__ShimmeringPortal__portal_anon__4()
+  local pi = (DDLib__TimData[(GetHandleId((GetExpiredTimer())) - 0x100000)])
+  if (GetLocalPlayer_CONST == Player(s__p_integer[pi + 1])) then
+    SetCameraPosition(s__ShimmeringPortal__portal_x[(s__p_integer[pi])], s__ShimmeringPortal__portal_y[(s__p_integer[pi])])
+  end
+  s__p_integer_deallocate(pi)
+end
+function s__ShimmeringPortal__portal_AttemptCameraPan(this, p)
+  local pi = nil
+  if (s__ShimmeringPortal__portal_IsSrcPortalClear(this, p)) then
+    pi = s__p_integer__allocate()
+    s__p_integer[pi] = s__ShimmeringPortal__portal_lnk[this]
+    s__p_integer[pi + 1] = GetPlayerId(p)
+    DDStartTim(ShimmeringPortal__CAMERA_PAN_DELAY, false, pi, s__ShimmeringPortal__portal_anon__4)
+  end
+end
+function s__ShimmeringPortal__portal_anon__6()
+  local this = (DDLib__UnitStackData)
+  if (ShimmeringPortal__IsUnitInRectangle(GetFilterUnit(), s__ShimmeringPortal__portal_x[this], s__ShimmeringPortal__portal_y[this], s__ShimmeringPortal__portal_degrees[this]) and DDGet(GetFilterUnit(), ShimmeringPortal__UNIT_PORT_KEY) == 0) then
+    return ShimmeringPortal__PortFilter(GetFilterUnit(), GetOwningPlayer(s__ShimmeringPortal__portal_p[this]))
+  end
+  return false
+end
+function s__ShimmeringPortal__portal_anon__8()
+  local wormhole_pi = (DDLib__TimData[(GetHandleId((GetExpiredTimer())) - 0x100000)])
+  local wormhole_pu = s__p_integer[wormhole_pi]
+  DDSet(s__p_unit[wormhole_pu], ShimmeringPortal__UNIT_PORT_KEY, 0)
+  s__p_integer_deallocate(wormhole_pi)
+  s__p_unit_deallocate(wormhole_pu)
+  DDQuitTim()
+end
+function s__ShimmeringPortal__portal_anon__7()
+  local pi = (DDLib__TimData[(GetHandleId((GetExpiredTimer())) - 0x100000)])
+  local wormhole_pu = s__p_integer[pi]
+  local dist = GetRandomReal(ShimmeringPortal__UNIT_PORT_WALK_OFFSET_MIN, ShimmeringPortal__UNIT_PORT_WALK_OFFSET_MAX)
+  local fac = GetUnitFacing(s__p_unit[wormhole_pu])
+  s__ShimmeringPortal__portal_trans_units[(s__p_integer[pi + 1])] = s__ShimmeringPortal__portal_trans_units[(s__p_integer[pi + 1])] - 1
+  s__ShimmeringPortal__portal_trans_units[(s__p_integer[pi + 2])] = s__ShimmeringPortal__portal_trans_units[(s__p_integer[pi + 2])] - 1
+  s__ShimmeringPortal__portal_PlayPortalEntranceSound((s__p_integer[pi + 1]))
+  ShowUnit(s__p_unit[wormhole_pu], true)
+  SetUnitInvulnerable(s__p_unit[wormhole_pu], false)
+  BlzPauseUnitEx(s__p_unit[wormhole_pu], false)
+  IssuePointOrder(s__p_unit[wormhole_pu], "move", GetUnitX(s__p_unit[wormhole_pu]) + dist * Cos(fac * bj_DEGTORAD), GetUnitY(s__p_unit[wormhole_pu]) + dist * Sin(fac * bj_DEGTORAD))
+  TimerStart(GetExpiredTimer(), ShimmeringPortal__UNIT_NEXT_PORT_DELAY, false, s__ShimmeringPortal__portal_anon__8)
+
+  s__ShimmeringPortal__portal_DoSelectJob((s__p_integer[pi + 2]), s__p_unit[(s__p_integer[pi])], true)
+
+end
+function s__ShimmeringPortal__portal_anon__9()
+  local this = (DDLib__TimData[(GetHandleId((GetExpiredTimer())) - 0x100000)])
+  s__ShimmeringPortal__portal_PlayPortalDeathSound(this)
+  s__ShimmeringPortal__portal_t[this] = nil
+  s__ShimmeringPortal__portal_destroy(this)
+  DDQuitTim()
+end
+function s__ShimmeringPortal__portal_anon__5()
+  local this = (DDLib__TimData[(GetHandleId((GetExpiredTimer())) - 0x100000)])
+  local elapsed = DDTimTick() * ShimmeringPortal__PORT_CHECK_INTERVAL
+  local i = 0
+  local dur = ShimmeringPortal__PORTAL_DURATION(s__ShimmeringPortal__portal_lvl[this])
+  local trans_time = ShimmeringPortal__PORTAL_TRANSITION_TIME(s__ShimmeringPortal__portal_lvl[this])
+  local max_pass = ShimmeringPortal__PORTAL_MAX_PASS(s__ShimmeringPortal__portal_lvl[this])
+  local pi = nil
+
+  if (ModuloInteger(R2I(elapsed * 10.), R2I(ShimmeringPortal__PORTAL_MINIMAP_PING_INTERVAL * 10.)) == 1) then
+    if (IsPlayerAlly(GetLocalPlayer_CONST, GetOwningPlayer(s__ShimmeringPortal__portal_p[this]))) then
+      PingMinimapEx(s__ShimmeringPortal__portal_x[this], s__ShimmeringPortal__portal_y[this], ShimmeringPortal__PORTAL_MINIMAP_PING_DURATION, ShimmeringPortal__PORTAL_MINIMAP_PING_RED, ShimmeringPortal__PORTAL_MINIMAP_PING_GREEN, ShimmeringPortal__PORTAL_MINIMAP_PING_BLUE, false)
+      PingMinimapEx(s__ShimmeringPortal__portal_tx[this], s__ShimmeringPortal__portal_ty[this], ShimmeringPortal__PORTAL_MINIMAP_PING_DURATION, ShimmeringPortal__PORTAL_MINIMAP_PING_RED, ShimmeringPortal__PORTAL_MINIMAP_PING_GREEN, ShimmeringPortal__PORTAL_MINIMAP_PING_BLUE, false)
+    end
+  end
+
+  if (elapsed > ShimmeringPortal__PORTAL_ANIM_BIRTH_DURATION and elapsed < dur + ShimmeringPortal__PORTAL_ANIM_BIRTH_DURATION and s__ShimmeringPortal__portal_cpass[this] + s__ShimmeringPortal__portal_cpass[s__ShimmeringPortal__portal_lnk[this]] < max_pass) then
+    s__ShimmeringPortal__portal_PlayPortalAmbienceSound(this)
+    DDGroupFillMemRect(s__ShimmeringPortal__portal_pr[this], this, s__ShimmeringPortal__portal_anon__6)
+    while true do
+      if (i >= (DDLib__US_N)) then
+        break
+      end
+      if (not (IssueImmediateOrder(DDMemUnit(i), "stop"))) then
+      end
+
+      s__ShimmeringPortal__portal_DoSelectJob(this, DDMemUnit(i), false)
+
+
+
+
+      ShimmeringPortal__TranslateUnitFromRectangleToRectangle(DDMemUnit(i), s__ShimmeringPortal__portal_x[this], s__ShimmeringPortal__portal_y[this], s__ShimmeringPortal__portal_degrees[this], s__ShimmeringPortal__portal_tx[this], s__ShimmeringPortal__portal_ty[this], s__ShimmeringPortal__portal_tdegrees[this])
+      ShowUnit(DDMemUnit(i), false)
+      SetUnitInvulnerable(DDMemUnit(i), true)
+      BlzPauseUnitEx(DDMemUnit(i), true)
+      s__ShimmeringPortal__portal_PlayPortalEntranceSound(this)
+      s__ShimmeringPortal__portal_trans_units[this] = s__ShimmeringPortal__portal_trans_units[this] + 1
+      s__ShimmeringPortal__portal_trans_units[s__ShimmeringPortal__portal_lnk[this]] = s__ShimmeringPortal__portal_trans_units[s__ShimmeringPortal__portal_lnk[this]] + 1
+
+      s__ShimmeringPortal__portal_AttemptCameraPan(this, GetOwningPlayer(DDMemUnit(i)))
+
+      DDSet(DDMemUnit(i), ShimmeringPortal__UNIT_PORT_KEY, 1)
+      pi = s__p_integer__allocate()
+      s__p_integer[pi] = New_pUnit(DDMemUnit(i))
+      s__p_integer[pi + 1] = s__ShimmeringPortal__portal_lnk[this]
+      s__p_integer[pi + 2] = this
+      DDStartTim(trans_time, false, pi, s__ShimmeringPortal__portal_anon__7)
+      s__ShimmeringPortal__portal_cpass[this] = s__ShimmeringPortal__portal_cpass[this] + 1
+      i = i + 1
+    end
+  end
+  if ((elapsed > ShimmeringPortal__PORTAL_ANIM_BIRTH_DURATION + dur) or (s__ShimmeringPortal__portal_cpass[this] + s__ShimmeringPortal__portal_cpass[s__ShimmeringPortal__portal_lnk[this]] >= max_pass)) then
+    if (s__ShimmeringPortal__portal_trans_units[this] == 0) then
+      DDStartTim(ShimmeringPortal__DESTROY_PORTAL_DELAY, false, this, s__ShimmeringPortal__portal_anon__9)
+      DDQuitTim()
+    end
+  end
+end
+function s__ShimmeringPortal__portal_StartPortSys(this)
+  s__ShimmeringPortal__portal_t[this] = DDStartTim(ShimmeringPortal__PORT_CHECK_INTERVAL, true, this, s__ShimmeringPortal__portal_anon__5)
+end
+function s__ShimmeringPortal__portal__set_link(this, p)
+  s__ShimmeringPortal__portal_lnk[this] = p
+end
+function s__ShimmeringPortal__portal__get_Elapsed(this)
+  return (DDLib__TimTicks[(GetHandleId(((s__ShimmeringPortal__portal_t[this]))) - 0x100000)]) * ShimmeringPortal__PORT_CHECK_INTERVAL
+end
+function ShimmeringPortal__Round(x)
+  if (x - I2R(R2I(x)) > 0.5) then
+    return R2I(x) + 1
+  end
+  return R2I(x)
+end
+function ShimmeringPortal__anon__10()
+  local u = nil
+  local s = nil
+  local p = nil
+  local lvl = nil
+  local wormhole_ux = nil
+  local wormhole_uy = nil
+  local wormhole_tx = nil
+  local wormhole_ty = nil
+  local x = nil
+  local y = nil
+  local rads = nil
+  local fac = nil
+  local wormhole_pt = nil
+  if (GetSpellAbilityId() ~= ShimmeringPortal__SPELL_ID) then
+    return false
+  end
+  if (GetTriggerEventId() == EVENT_PLAYER_UNIT_SPELL_CAST) then
+    u = GetTriggerUnit()
+    if (IsUnitInRangeXY(u, GetSpellTargetX(), GetSpellTargetY(), ShimmeringPortal__SECOND_PORTAL_MIN_RANGE)) then
+      IssuePointOrder(u, "move", GetUnitX(u) + 50. * Cos(GetUnitFacing(u) * bj_DEGTORAD), GetUnitY(u) + 50. * Sin(GetUnitFacing(u) * bj_DEGTORAD))
+      DisplayTimedTextFromPlayer(GetOwningPlayer(u), 0., 0., ShimmeringPortal__PORTAL_WARNING_MESSAGE_DURATION, "|cffff0020" .. ShimmeringPortal__PORTAL_WARNING_MESSAGE .. "|r")
+      if (GetLocalPlayer_CONST == GetOwningPlayer(u)) then
+        StartSound(ShimmeringPortal__warningsound)
+      end
+      DDSet(u, ShimmeringPortal__CASTER_FACING_KEY, 0)
+    else
+      DDSet(u, ShimmeringPortal__CASTER_FACING_KEY, New_pReal(GetUnitFacing(u)))
+    end
+    u = nil
+    return false
+  end
+  if (GetTriggerEventId() == EVENT_PLAYER_UNIT_SPELL_ENDCAST) then
+    u = GetTriggerUnit()
+    wormhole_pt = DDGet(u, ShimmeringPortal__CASTER_PORTS_KEY)
+    if (wormhole_pt == 0) then
+      u = nil
+      return false
+    end
+    if (ShimmeringPortal__Round(((DDLib__TimTicks[(GetHandleId(((s__ShimmeringPortal__portal_t[((s__p_integer[wormhole_pt]))]))) - 0x100000)]) * ShimmeringPortal__PORT_CHECK_INTERVAL) * 10.) < ShimmeringPortal__Round(ShimmeringPortal__PORTAL_ANIM_BIRTH_DURATION * 10.)) then
+      s__ShimmeringPortal__portal_PlayPortalDeathSound((s__p_integer[wormhole_pt]))
+      s__ShimmeringPortal__portal_PlayPortalDeathSound((s__p_integer[wormhole_pt + 1]))
+      s__ShimmeringPortal__portal_destroy((s__p_integer[wormhole_pt]))
+      s__ShimmeringPortal__portal_destroy((s__p_integer[wormhole_pt + 1]))
+    end
+    s__p_integer_deallocate(wormhole_pt)
+    u = nil
+    return false
+  end
+  u = GetTriggerUnit()
+  p = GetOwningPlayer(u)
+  lvl = GetUnitAbilityLevel(u, ShimmeringPortal__SPELL_ID)
+  fac = DDGet(u, ShimmeringPortal__CASTER_FACING_KEY)
+  wormhole_ux = GetUnitX(u)
+  wormhole_uy = GetUnitY(u)
+  wormhole_tx = GetSpellTargetX()
+  wormhole_ty = GetSpellTargetY()
+  rads = Atan2(-wormhole_uy + wormhole_ty, -wormhole_ux + wormhole_tx)
+  x = wormhole_ux + ShimmeringPortal__FIRST_PORTAL_OFFSET * Cos(rads)
+  y = wormhole_uy + ShimmeringPortal__FIRST_PORTAL_OFFSET * Sin(rads)
+  wormhole_pt = s__p_integer__allocate()
+  s__p_integer[wormhole_pt] = s__ShimmeringPortal__portal_create(p, lvl, x, y, (rads * bj_RADTODEG) + 90., wormhole_tx, wormhole_ty, s__p_real[fac] - 90.)
+  s__p_integer[wormhole_pt + 1] = s__ShimmeringPortal__portal_create(p, lvl, wormhole_tx, wormhole_ty, s__p_real[fac] - 90., x, y, (rads * bj_RADTODEG) + 90.)
+  s__ShimmeringPortal__portal_lnk[((s__p_integer[wormhole_pt]))] = (s__p_integer[wormhole_pt + 1])
+  s__ShimmeringPortal__portal_lnk[((s__p_integer[wormhole_pt + 1]))] = (s__p_integer[wormhole_pt])
+  s__ShimmeringPortal__portal_StartPortSys((s__p_integer[wormhole_pt]))
+  s__ShimmeringPortal__portal_StartPortSys((s__p_integer[wormhole_pt + 1]))
+  DDSet(u, ShimmeringPortal__CASTER_PORTS_KEY, wormhole_pt)
+  DDGenericSound(ShimmeringPortal__PORTAL_BIRTH_SOUND_FILE, ShimmeringPortal__PORTAL_BIRTH_SOUND_VOLUME, x, y, ShimmeringPortal__SOUND_MAX_DISTANCE, 1.)
+  DDGenericSound(ShimmeringPortal__PORTAL_BIRTH_SOUND_FILE, ShimmeringPortal__PORTAL_BIRTH_SOUND_VOLUME, wormhole_tx, wormhole_ty, ShimmeringPortal__SOUND_MAX_DISTANCE, 1.)
+  s__p_real_deallocate(fac)
+  u = nil
+  return false
+end
+function ShimmeringPortal__onInit()
+  local t = CreateTrigger()
+  ShimmeringPortal__PORTAL_WARNING_MESSAGE = "Too close cast of Shimmering portal!"
+  ShimmeringPortal__PORTAL_WARNING_SOUND_FILE = "Sound\\Interface\\Error.wav"
+  ShimmeringPortal__warningsound = CreateSound(ShimmeringPortal__PORTAL_WARNING_SOUND_FILE, false, false, false, 10, 10, "")
+  ShimmeringPortal__PORTAL_ANIM_BIRTH = "birth"
+  ShimmeringPortal__PORTAL_ANIM_DEATH = "death"
+  ShimmeringPortal__PORTAL_ANIM_STAND = "stand"
+  ShimmeringPortal__PORTAL_BIRTH_SOUND_FILE = "Sound\\Ambient\\DoodadEffects\\ShimmeringPortalBirth.wav"
+  ShimmeringPortal__PORTAL_DEATH_SOUND_FILE = "Sound\\Ambient\\DoodadEffects\\ShimmeringPortalDeath.wav"
+  ShimmeringPortal__PORTAL_ENTRANCE_SOUND_FILE = "Sound\\Ambient\\DoodadEffects\\ShimmeringPortalEntrance.wav"
+  ShimmeringPortal__PORTAL_AMBIENCE_SOUND_FILE = "Sound\\Ambient\\DoodadEffects\\CityScapeMagicRunesLoop1.wav"
+  SetSoundVolume(ShimmeringPortal__warningsound, R2I(ShimmeringPortal__PORTAL_WARNING_SOUND_VOLUME * 1.27))
+  TriggerRegisterAnyUnitEventBJ(t, EVENT_PLAYER_UNIT_SPELL_CAST)
+  TriggerRegisterAnyUnitEventBJ(t, EVENT_PLAYER_UNIT_SPELL_EFFECT)
+  TriggerRegisterAnyUnitEventBJ(t, EVENT_PLAYER_UNIT_SPELL_ENDCAST)
+  TriggerAddCondition(t, Condition(ShimmeringPortal__anon__10))
+end
+
 --library ShimmeringPortal ends
 --===========================================================================
 -- 
@@ -3559,6 +5194,10 @@ function main()
 	end
 
 	GetLocalPlayer_CONST = GetLocalPlayer()
+  jasshelper__initstructs1010750()
+  AAATimerUtils__init()
+  DDLib__onInit()
+  ShimmeringPortal__onInit()
 
   InitGlobals()
   InitTrig_Melee_Initialization()
@@ -3609,3 +5248,55 @@ function config()
   InitGenericPlayerSlots()
   InitAllyPriorities()
 end
+
+
+
+
+--Struct method generated initializers/callers:
+
+--Functions for BigArrays:
+function sa___prototype6_AAATimerUtils__init()
+
+  local i = 0
+  local o = -1
+  local oops = false
+  if (AAATimerUtils__didinit) then
+    return true
+  else
+    AAATimerUtils__didinit = true
+  end
+  AAATimerUtils__ht = InitHashtable()
+  while true do
+    if (i == AAATimerUtils__QUANTITY) then
+      break
+    end
+    s__AAATimerUtils__tT[i] = CreateTimer()
+    SaveInteger(AAATimerUtils__ht, 0, GetHandleId((s__AAATimerUtils__tT[i])), (AAATimerUtils__HELD))
+    i = i + 1
+  end
+  AAATimerUtils__tN = AAATimerUtils__QUANTITY
+  return true
+end
+
+function jasshelper__initstructs1010750()
+  st___prototype6[1] = CreateTrigger()
+  TriggerAddAction(st___prototype6[1], sa___prototype6_AAATimerUtils__init)
+  TriggerAddCondition(st___prototype6[1], Condition(sa___prototype6_AAATimerUtils__init))
+
+  s__AAATimerUtils__InitStruct_AAATimerUtils__Init___onInit()
+
+
+
+
+
+
+
+
+
+
+
+
+
+  s__ShimmeringPortal__portal_onInit()
+end
+

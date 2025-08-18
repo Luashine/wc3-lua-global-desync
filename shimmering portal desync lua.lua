@@ -1429,7 +1429,7 @@ function DDGetRndInt(min, max)
   return R2I(DDGetRndReal(I2R(min), I2R(max)))
 end
 function DDLib__onInit()
-  DDLib__TempLoc = Location(0., 0.)
+  DDLib__TempLoc = Location(0., 0.) -- THIS LINE TOGETHER WITH SAME DEFINITION IN GLOBALS AT THE START DESYNCS
   DDHT = InitHashtable()
   DDMinX = GetRectMinX(bj_mapInitialPlayableArea)
   DDMinY = GetRectMinY(bj_mapInitialPlayableArea)

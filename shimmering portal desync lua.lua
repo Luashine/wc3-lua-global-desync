@@ -9,7 +9,7 @@ end
 
 DDLib__GameElapsedTimer = nil
 DDLib__RndGenForce = nil
---DDLib__TempLoc = Location(0., 0.) -- this is done in INIT -- ROOT LOCATION()
+DDLib__TempLoc = Location(0., 0.) -- this is done in INIT -- ROOT LOCATION()
 DDHT = nil
 DDLib__GenSndTable = nil
 

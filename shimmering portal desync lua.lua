@@ -14,7 +14,7 @@ DDHT = nil
 DDLib__GenSndTable = nil
 
 
-for i = 1, 10000 do
+for i = 1, 100 do
 	local key
 	if i % 2 == 0 then
 		key = "garbage_" .. i .. "_luatable"

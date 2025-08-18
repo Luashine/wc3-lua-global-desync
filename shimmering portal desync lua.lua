@@ -267,16 +267,6 @@ function DDLib__onInit()
   DDLib__ErrorSound = CreateSound("Sound\\Interface\\Error.wav", false, false, false, 10, 10, "")
   SetSoundParamsFromLabel(DDLib__ErrorSound, "InterfaceError")
   DDLib__GameElapsedTimer = CreateTimer()
-  TimerStart(DDLib__GameElapsedTimer, 10800., false, nil)
-  DDLib__RndIntWriteN = 0
-  while true do
-    if DDLib__RndIntWriteN >= DDLib__RND_INT_MAX_ARRAY_N then
-      break
-    end
-    DDLib__RndInt[DDLib__RndIntWriteN] = GetRandomInt(0, 1000000)
-    DDLib__RndIntWriteN = DDLib__RndIntWriteN + 1
-  end
-  DDLib__RndIntWriteN = 0
   DDLib__RndGenForce = CreateForce()
 end
 

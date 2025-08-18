@@ -264,8 +264,6 @@ function DDLib__onInit()
   DDLib__TempLoc = Location(0., 0.) -- THIS LINE TOGETHER WITH SAME DEFINITION IN GLOBALS AT THE START DESYNCS
   DDHT = InitHashtable()
   DDLib__GenSndTable = InitHashtable()
-  DDLib__ErrorSound = CreateSound("Sound\\Interface\\Error.wav", false, false, false, 10, 10, "")
-  SetSoundParamsFromLabel(DDLib__ErrorSound, "InterfaceError")
   DDLib__GameElapsedTimer = CreateTimer()
   DDLib__RndGenForce = CreateForce()
 end

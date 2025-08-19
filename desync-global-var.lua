@@ -1,4 +1,4 @@
-do
+do -- intercept GetHandleId for trace
 	local orig_GetHandleId = GetHandleId
 	function GetHandleId(obj)
 		local id = orig_GetHandleId(obj)
@@ -7,13 +7,10 @@ do
 	end
 end
 
-DDLib__GameElapsedTimer = nil
-DDLib__RndGenForce = nil
 DDLib__TempLoc = Location(0., 0.) -- this is done in INIT -- ROOT LOCATION()
-DDHT = nil
-DDLib__GenSndTable = nil
 
-
+-- Create garbage
+-- This is equivalent to putting globals in root, something the game does
 for i = 1, 100 do -- garbage directly affects WHEN the desync happens
 	local key
 	if i % 2 == 0 then
@@ -26,20 +23,12 @@ for i = 1, 100 do -- garbage directly affects WHEN the desync happens
 end
 
 function DDLib__onInit()
-  DDLib__TempLoc = Location(0., 0.) -- THIS LINE TOGETHER WITH SAME DEFINITION IN GLOBALS AT THE START DESYNCS
-  DDHT = InitHashtable()
-  DDLib__GenSndTable = InitHashtable()
-  DDLib__GameElapsedTimer = CreateTimer()
-  DDLib__RndGenForce = CreateForce()
+  DDLib__TempLoc = Location(0., 0.) -- THIS LINE ALONE TOGETHER WITH SAME DEFINITION IN GLOBALS AT THE START WILL DESYNC
+  -- REMOVE ONE OR THE OTHER AND THE DESYNC SEEMS TO STOP.
+  -- GO FIGURE.
+  -- YES, PLEASE DO FIGURE IT OUT
 end
 
-
-
-gg_trg_Melee_Initialization = nil
-gg_trg_THIS_ENTIRE_SCRIPT = nil
-gg_trg_IS_OVERRIDEN_BY = nil
-gg_trg_WAR3MAPLUA = nil
-gg_trg_nofog = nil
 function InitGlobals()
 end
 

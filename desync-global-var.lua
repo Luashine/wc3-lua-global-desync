@@ -7,11 +7,7 @@ do
 	end
 end
 
-DDLib__GameElapsedTimer = nil
-DDLib__RndGenForce = nil
 DDLib__TempLoc = Location(0., 0.) -- this is done in INIT -- ROOT LOCATION()
-DDHT = nil
-DDLib__GenSndTable = nil
 
 
 for i = 1, 100 do -- garbage directly affects WHEN the desync happens
@@ -27,19 +23,10 @@ end
 
 function DDLib__onInit()
   DDLib__TempLoc = Location(0., 0.) -- THIS LINE TOGETHER WITH SAME DEFINITION IN GLOBALS AT THE START DESYNCS
-  DDHT = InitHashtable()
-  DDLib__GenSndTable = InitHashtable()
-  DDLib__GameElapsedTimer = CreateTimer()
-  DDLib__RndGenForce = CreateForce()
 end
 
 
 
-gg_trg_Melee_Initialization = nil
-gg_trg_THIS_ENTIRE_SCRIPT = nil
-gg_trg_IS_OVERRIDEN_BY = nil
-gg_trg_WAR3MAPLUA = nil
-gg_trg_nofog = nil
 function InitGlobals()
 end
 
@@ -198,13 +185,6 @@ function main()
 				SetPlayerName(Player(i), "slot ".. i)
 			end
 		end
-		local myTimer = CreateTimer()
-		local id = GetHandleId(myTimer)
-		TimerStart(myTimer, 1, true, function()
-			local loc = Location(123, 456)
-			GetHandleId(loc)
-			RemoveLocation(loc)
-		end)
 	end
 
 	GetLocalPlayer_CONST = GetLocalPlayer() -- save GetLocalPlayer to eliminate this as a variable

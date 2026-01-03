@@ -2,6 +2,8 @@
 
 Affected Versions: probably at least since 1.32.10. v2.0.3 confirmed
 
+Bug report: <https://us.forums.blizzard.com/en/warcraft3/t/desync-due-to-lua-objects-and-gc-init-phase/36996>
+
 The git tag "desync-repro-baked" should have the modified script
 baked into the MPQ. Otherwise you'll need to have "Allow Local Files"
 enabled for Reforged to pick up the .lua file next to the map.
